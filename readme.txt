@@ -6,7 +6,7 @@ step 3: install the docker to containerize the python app
 step 4: go inside to your current project folder
         cd getting-started/app
 step 5: build the app using 
-        sudo docker build -t hello-python .
+        sudo docker build -t getting-started-app .
 
 step 6: after building the app run it.
         sudo docker run  -p 5000:5000 getting-started-app
